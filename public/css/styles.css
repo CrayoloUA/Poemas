@@ -1,0 +1,103 @@
+body {
+    font-family: 'Georgia', serif;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.5em;
+    color: #5a3b5d;
+    margin-bottom: 20px;
+    font-family: 'Playfair Display', serif;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+ul li {
+    margin: 15px 0;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #7c5a7d;
+    font-size: 1.4em;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+ul li a:hover {
+    color: #3e2a3f;
+    text-decoration: underline;
+}
+
+.poema {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.poema h1 {
+    font-size: 2em;
+    color: #5a3b5d;
+    margin-bottom: 20px;
+}
+
+.poema p {
+    font-size: 1.2em;
+    color: #555;
+    line-height: 1.8;
+    white-space: pre-line; /* Respeta los saltos de línea */
+}
+
+.btn-volver {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #7c5a7d;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-volver:hover {
+    background-color: #5a3b5d;
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2em;
+    }
+
+    ul li a {
+        font-size: 1.2em;
+    }
+
+    .poema {
+        padding: 20px;
+    }
+
+    .poema h1 {
+        font-size: 1.8em;
+    }
+
+    .poema p {
+        font-size: 1em;
+    }
+}
